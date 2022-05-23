@@ -1,3 +1,5 @@
+import random xxx
+
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
