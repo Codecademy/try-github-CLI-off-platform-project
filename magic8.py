@@ -1,5 +1,5 @@
 import random
-
+# import to fix bug
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
