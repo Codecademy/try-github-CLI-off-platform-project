@@ -1,9 +1,13 @@
+import random
+
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
 
 random_number = random.randint(1, 9)
 # print(random_number)
+# randon comment
+
 
 if random_number == 1:
   answer = "Yes - definitely"
