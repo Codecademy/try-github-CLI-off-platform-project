@@ -1,4 +1,6 @@
-name = "Joe"
+import random
+
+name = "Scarlett"
 question = "Will I win the lottery?"
 answer = ""
 
