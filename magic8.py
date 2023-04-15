@@ -4,7 +4,7 @@ answer = ""
 
 random_number = random.randint(1, 9)
 # print(random_number)
-
+import random
 if random_number == 1:
   answer = "Yes - definitely"
 elif random_number == 2:
