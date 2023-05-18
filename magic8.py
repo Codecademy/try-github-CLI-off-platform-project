@@ -1,3 +1,5 @@
+import random # This code imports random library needed to run the code without errors.
+
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
