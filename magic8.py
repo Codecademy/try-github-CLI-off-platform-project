@@ -1,5 +1,4 @@
 import random
-
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
