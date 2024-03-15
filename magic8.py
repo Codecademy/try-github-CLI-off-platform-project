@@ -1,7 +1,7 @@
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
-
+import ramdom
 random_number = random.randint(1, 9)
 # print(random_number)
 
