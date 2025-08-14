@@ -1,6 +1,6 @@
 import random
 name = "Joe"
-question = "Will I win the lottery?"
+question = "WIll the Chiefs win the supperbowl"
 answer = ""
 
 random_number = random.randint(1, 9)
