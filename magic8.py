@@ -1,8 +1,9 @@
+import random
 name = "Joe"
-question = "Will I win the lottery?"
+question = "Will the Chiefs win the supperbowl"
 answer = ""
 
-random_number = random.randint(1, 9)
+random_number = random.randint(1, 11)
 # print(random_number)
 
 if random_number == 1:
@@ -23,8 +24,20 @@ elif random_number == 8:
   answer = "Outlook not so good"
 elif random_number == 9:
   answer = "Very doubtful"
+elif random_number == 10:
+  answer = "Absolutely not"
+elif random_number == 11:
+  answer = "no!"
 else:
   answer = "Error"
-  
-print(name + " asks: " + question)
-print("Magic 8 Ball's answer: " + answer)
+
+print(f"{name} asks: {question}")
+print("Magic 8-Balls answer:" + answer)
+
+if question == "":
+  print("You must ask a question!")
+elif name.strip() == "":
+  print("Question:")
+else:
+  answer = name
+
